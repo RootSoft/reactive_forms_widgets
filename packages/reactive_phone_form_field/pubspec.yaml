@@ -12,7 +12,10 @@ dependencies:
   flutter:
     sdk: flutter
   reactive_forms: ^16.0.0
-  phone_form_field: ^8.1.0
+  phone_form_field:
+    git:
+      url: https://github.com/RootSoft/phone_form_field.git
+      ref: dev
 
 dev_dependencies:
   flutter_test:
